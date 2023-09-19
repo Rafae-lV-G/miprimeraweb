@@ -136,3 +136,8 @@ nav ul.menu li a {
     opacity: 1;
   }
 }
+section {
+  width:  100px;
+  height: 80px;
+
+}
