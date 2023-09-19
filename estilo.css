@@ -1,0 +1,234 @@
+/* parte general */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.fuente-acento{
+    color: #b59a61;
+
+} 
+
+.fuente-oscura{
+    color: #22211f;
+}
+.fuente-clara{
+    color: #eeeeee;
+    
+}
+body {
+background-color: rgb(0, 183, 255);
+margin: 1;
+}
+/* cuerpo princioal de la página */
+/*permite adaptar el tamaño de la pagina a cualquier dispositivo*/
+.clase.carta {
+    font-size: 16px;
+    color: darkred;
+  }
+/*@media(min-width: 768px){
+.carta{
+    width: 50%;
+}
+}
+@media(min-width: 1024px){
+    .carta{
+        width: 30%;
+    }
+
+}
+
+  @media(max-width: 767px){
+     .clase{
+      font-size: 20px;
+      color: blue;
+     }
+  }*/
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    color: blueviolet;
+  
+}
+#Encabezado ul{
+    position: fixed;
+    width: 20%;
+    height: 50vh;
+    background: rgba(165, 42, 42, 0.774);
+    text-align: center;
+    top: 30px;
+    left: 110%;
+    
+}
+
+header img.logo {
+  
+    font-size: 30px;
+  
+    font-weight: bold;
+  
+    /* Agregar propiedad de display */
+    display: inline-block;   
+    /* Agregar propiedad de line-height */
+    line-height: 100px;
+    padding: 0 10px;
+    width: 780px;
+    height: 120px;
+    
+  }
+  
+  #check{
+    display: none;
+  }
+  
+  #check:checked  ~ul{
+    left: 0%;
+    display: block;
+  }
+main{
+    background-color: rgb(248, 240, 255);
+    margin-left: 1px;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 2em;
+    border: 1px solid black;
+    
+}
+
+
+
+header nav {
+  
+    /* Agregar propiedad de float */
+    float:right;
+  
+  }
+nav ul li {
+  
+    /* Agregar propiedad de display */
+    display: inline-block;
+  
+  
+    margin-right: 60px;
+  
+    /* Agregar propiedad de line-height */
+    line-height: 110px;
+  }
+  
+.principal {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    display:grid;
+}
+p{
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1em;
+   color: black;  
+}
+nav{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2em;
+   color: rgba(184, 187, 13, 0.877);
+    padding: 10px;
+   border: 1px solid black;
+   background-color: rgb(222, 213, 135);
+ 
+   
+
+}
+.puntero a:hover{
+    background-color: powderblue;
+    transition: background-color 0.5s;
+   
+
+}
+#objeto{
+
+display: flex;
+flex-direction:row;
+font-size: 2em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+img.grafico{
+    width: 220px;
+    height: 220px;
+    border-radius: 5% ;
+    padding: auto;
+}
+footer {
+
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+  }
+.nav ul.menu {
+  float: none;
+  display:  block;
+  width: 174px;
+  margin: 0 auto;
+  opacity: 0;
+}   
+.nav ul.menu li a:hover{
+  color: cornsilk;
+} 
+.nav.active{
+  height: 100;
+}
+.nav.nav.active ul.menu {
+  opacity: 1;
+}
+  
+  
+  .form-header {
+  
+    text-align: center;
+  
+    background-color: #f6f7f8;
+  
+    border: 1px solid #d6d9dc;
+  
+    border-radius: 3px;
+  
+  
+  
+    width: 80%;
+  
+    margin: 10px auto;
+  
+    padding: 50px;
+  
+  }
+  
+  
+  
+  .form-header h1 {
+  
+    font-size: 30px;
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  
+  /* ------------- Formulario ------------- */
+  
+  
+  
+  .formulario {
+  
+    background-color: #f6f7f8;
+  
+    border: 1px solid #d6d9dc;
+  
+    border-radius: 3px;
+
+}  
