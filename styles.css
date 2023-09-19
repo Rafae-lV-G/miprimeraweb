@@ -46,7 +46,10 @@ header {
   padding: 0 50px;
   font-weight: bold;
 }
-
+.gretting{
+  background-color: azure;
+  top: 10%;
+}
 header {
   position: fixed;
   z-index: 1000;
